@@ -1,0 +1,26 @@
+{
+  "name": "emailservice",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/EmailService.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
